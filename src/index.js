@@ -7,8 +7,10 @@ import Intro from './introduction/introduction';
 import ItemCard from './itemcard/itemcard';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <Navbar />
     <Intro />
@@ -72,6 +74,7 @@ root.render(
     
     
   </React.StrictMode>
+  
 );
 
 
