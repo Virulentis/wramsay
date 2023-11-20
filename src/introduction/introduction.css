@@ -1,0 +1,17 @@
+#name {
+    font-size: 160px;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#description {
+    text-align: center;
+    font-size: 27px;
+    margin: 3px;
+}
+
+#topcard{
+    margin: 100px 0 1000px;
+}

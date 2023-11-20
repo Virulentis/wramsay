@@ -1,3 +1,6 @@
+
+html{scroll-behavior:smooth}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(14, 14, 14);
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+
+
+  /* No select */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.section_card {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  
+}
+
+.subheader{
+  font-size: 35px;
+  margin: 0px auto;
+
+}
+
+.subtext{
+  margin: 2px;
+  text-align: center;
+}
+
+#skills{
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column;
+  
 }

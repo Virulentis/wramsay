@@ -1,0 +1,24 @@
+
+
+#Nav_bar{
+    margin: 0;
+    padding: 12px 10px;
+    border: 10px;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.Nav_val:hover {
+    background-color: white;
+    color: black;
+}
+
+.Nav_val{
+    padding: 0px 10px;
+    transition: background-color 0.30s, color 0.30s;
+}
+/* listStyleType:'none', display: 'flex', justifyContent: 'flex-end' */
+
+/* -webkit-filter: invert(100%);
+    filter: invert(100%); */

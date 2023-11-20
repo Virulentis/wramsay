@@ -1,0 +1,68 @@
+
+
+#card{
+    margin: 200px auto 750px ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flip{
+    flex-direction: row-reverse;
+}
+
+
+#profile_photo{
+    width: 600px;
+    height: 600px;
+    object-fit:cover;
+    border-radius: 600px;
+    margin: 5px 5px;
+    position: relative;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* #profile_photo:hover{
+    filter: blur(7px);
+    
+}
+
+.link:hover{
+    filter: blur(7px);
+    
+} */
+
+#textImg {
+    width: 1060px;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+    /* transition: filter 5s, */
+}
+
+#project_link{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100px;
+}
+
+
+
+#explanation {
+    margin: 0 20px;
+    max-width: 900px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#desc{
+    font-size: 25px;
+    font-weight: lighter;
+}

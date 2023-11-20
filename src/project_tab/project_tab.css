@@ -1,0 +1,54 @@
+
+:root {
+    --background_project: rgb(29, 29, 29);
+    --project_text_color: rgb(255, 255, 255);
+}
+
+
+.show {
+    display: flex;
+}
+
+.project_small {
+    position: relative;
+    background-color: var(--background_project);
+    max-width: 550px;
+    /* border-radius: 20px; */
+    margin: 5px 20px;
+
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 100px;
+    margin: 5px 5px;
+}
+
+.Project_title {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px 5px;
+    color: var(--project_text_color);
+}
+
+.date{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 10px 20px;
+    color: var(--project_text_color)
+}
+
+.TopCard{
+    display: flex;
+}
+
+.description{
+    padding-bottom: 7px;
+    margin: 12px;
+    color: var(--project_text_color)
+}
