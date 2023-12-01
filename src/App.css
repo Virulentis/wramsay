@@ -1,12 +1,8 @@
-:root{
-  --default-text-color: black;
-  --default-bg-color: white;
 
-}
 
 
 #light {
-  background-color: white;
+  background-color: rgb(240, 240, 240);
   color: black;
   transition: background-color 0.30s, color 0.30s;
 }
@@ -18,20 +14,34 @@
 }
 
 #light a {
-  background-color: white;
   color: black;
 }
 
 #dark a {
-  background-color: black;
   color: white;
 }
 
+#light .Nav_val:hover {
+  background-color: black;
+}
+
+#dark .Nav_val:hover {
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
 
 
 #right_side:last-child {
   display: flex;
-  
-    margin: auto
+  margin: auto;
+}
 
+.checkbox {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }

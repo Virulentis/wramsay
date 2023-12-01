@@ -6,7 +6,7 @@ import Intro from './introduction/introduction';
 import ItemCard from './itemcard/itemcard';
 import { createContext, useState } from "react";
 import resume from './resources/WRamsay_Resume.pdf';
-
+import { ReactComponent as Sun } from './logo/sun.svg';
 
 export const ThemeContext = createContext(null);
 
@@ -21,11 +21,11 @@ function App() {
   <div className="App" id = {theme}>
     
     <div id= "Nav_bar">  
-                <li className="Nav_item"><a href="#About_Me" className='Nav_val'>About Me</a></li>
+                <li className="Nav_item"><a href="#About_Me" className='Nav_val' >About Me</a></li>
                 <li className="Nav_item"><a href="#Projects" className='Nav_val'>Projects</a></li>
                 <li className="Nav_item"><a href="#socials" className='Nav_val'>Socials</a></li>
                 <li className="Nav_item"><a href={resume} className='Nav_val' download="resume">Resume</a></li>
-                <li className="Nav_item Nav_right"><input type='checkbox' onChange={toggleTheme}></input></li>
+                <li className="Nav_item Nav_right"><label className= "tetst"><input type='checkbox' onChange={toggleTheme} className='checkbox'></input><Sun></Sun></label></li>
     </div>
     
     <Intro />

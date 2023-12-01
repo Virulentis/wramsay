@@ -2,32 +2,36 @@
 
 #socials {
     
-    /* background-color: rgb(53, 53, 53); */
+    /*  */
     display: flex;
     justify-content: center;
     max-width: 180px;
     align-items: center;
-    margin: 200px auto 30px;
-    border: 2px;
+    margin: 200px auto 0px;
+    border: 3px;
     border-style: solid;
     transition: background-color 0.5s;
     
 }
 
-#socials:hover {
+#dark #socials{
+    background-color: rgb(53, 53, 53);
+}
+
+#dark #socials:hover {
     background-color: rgb(68, 68, 68);
 }
 
-#linkedIn, #github, #email {
-    margin: 20px 15px;
-    
+#light #socials{
+    background-color: rgb(231, 231, 231);
 }
 
-/* #linkedIn:hover, #github:hover, #email:hover {
-    background-color: white;
-} */
+#light #socials:hover {
+    background-color: rgb(170, 170, 170);
+}
 
-a{
-    text-decoration: none;
-    /* color: rgb(255, 255, 255); */
+
+
+#linkedIn, #github, #email {
+    margin: 20px 15px;
 }

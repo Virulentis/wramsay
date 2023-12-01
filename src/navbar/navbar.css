@@ -6,6 +6,9 @@
     border: 10px;
     list-style-type: none;
     display: flex;
+    /* position: fixed;
+    top: 0;
+    background-color: black; */
     
 }
 
@@ -13,9 +16,16 @@
     margin-left: auto;
 }
 
-.Nav_val:hover {
-    background-color: red;
+
+
+#light .Nav_val:hover  {
+    color: white;
+    background-color: black;
+}
+
+#dark .Nav_val:hover {
     color: black;
+    background-color: white;
 }
 
 .Nav_val{
@@ -23,12 +33,9 @@
     transition: background-color 0.30s, color 0.30s;
 }
 
-.hide{
-    height: 0;
-    width: 0;
-    opacity: 0;
+#test{
+    color: purple;
 }
-
 
 /* -webkit-filter: invert(100%);
     filter: invert(100%); */

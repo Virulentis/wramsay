@@ -15,12 +15,3 @@ root.render(
   </React.StrictMode>
   
 );
-
-
-
-
-{/*
-
-  ItemCard src='' title='' desc='' flip='' />
-
-*/}

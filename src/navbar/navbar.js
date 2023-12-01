@@ -1,5 +1,5 @@
 import './navbar.css';
-import resume from '../resources/WRamsay_Resume.pdf';
+// import resume from '../resources/WRamsay_Resume.pdf';
 
 import { ThemeContext } from '../App';
 
@@ -15,16 +15,13 @@ function Navbar() {
                 <li className="Nav_item"><a href="#About_Me" className='Nav_val'>About Me</a></li>
                 <li className="Nav_item"><a href="#Projects" className='Nav_val'>Projects</a></li>
                 <li className="Nav_item"><a href="#socials" className='Nav_val'>Socials</a></li>
-                <li className="Nav_item"><a href={resume} className='Nav_val' download="resume">Resume</a></li>
+                <li className="Nav_item"><a  className='Nav_val' download="resume">Resume</a></li>
                 <li className="Nav_item Nav_right"><button  ></button></li>
         </div>
     );
 
 }
 
-function togglemode() {
-    alert('You clicked me!');
-}
 
 export default Navbar
 
