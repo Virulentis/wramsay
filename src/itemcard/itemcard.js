@@ -4,20 +4,9 @@ const item = (param) => {
     return(
         <>
             <div id="card" className={param.flip}>
-                {/* {param.link} */}
-                    {/* <a href="https://github.com/Virulentis" className={param.isLink}> */}
-                    
-                    <img src = {param.src} id="profile_photo"></img>
-
-
-
-                        {/* <span id="project_link">Github</span> */}
-
-
-                   {/* </a> */}
-
-                
-                
+                <div id="profile_div">
+                    <img src = {param.src} id="profile_photo" className='d-block mx-lg-auto img-fluid rounded-circle'></img>
+                </div>
                 
                 <div id="explanation">
                     <h1 id="title">{param.title}</h1>
@@ -32,3 +21,4 @@ const item = (param) => {
 export default item
 
 
+// className='img-fluid img-rounded rounded-circle ratio-1x1 overflow-hidden'

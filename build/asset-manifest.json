@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Virulentis.github.io/static/css/main.6f3d247b.css",
-    "main.js": "/Virulentis.github.io/static/js/main.5f79e3cd.js",
-    "index.html": "/Virulentis.github.io/index.html",
-    "static/media/github.svg": "/Virulentis.github.io/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
-    "static/media/linkedin.svg": "/Virulentis.github.io/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
-    "static/media/mail.svg": "/Virulentis.github.io/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
-    "main.6f3d247b.css.map": "/Virulentis.github.io/static/css/main.6f3d247b.css.map",
-    "main.5f79e3cd.js.map": "/Virulentis.github.io/static/js/main.5f79e3cd.js.map"
+    "main.css": "/wramsay/static/css/main.6f3d247b.css",
+    "main.js": "/wramsay/static/js/main.c0706556.js",
+    "index.html": "/wramsay/index.html",
+    "static/media/github.svg": "/wramsay/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
+    "static/media/linkedin.svg": "/wramsay/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
+    "static/media/mail.svg": "/wramsay/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
+    "main.6f3d247b.css.map": "/wramsay/static/css/main.6f3d247b.css.map",
+    "main.c0706556.js.map": "/wramsay/static/js/main.c0706556.js.map"
   },
   "entrypoints": [
     "static/css/main.6f3d247b.css",
-    "static/js/main.5f79e3cd.js"
+    "static/js/main.c0706556.js"
   ]
 }

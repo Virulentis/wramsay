@@ -9,8 +9,12 @@
     
 }
 
+.Nav_item:last-child{
+    margin-left: auto;
+}
+
 .Nav_val:hover {
-    background-color: white;
+    background-color: red;
     color: black;
 }
 
@@ -18,7 +22,13 @@
     padding: 0px 10px;
     transition: background-color 0.30s, color 0.30s;
 }
-/* listStyleType:'none', display: 'flex', justifyContent: 'flex-end' */
+
+.hide{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
 
 /* -webkit-filter: invert(100%);
     filter: invert(100%); */
