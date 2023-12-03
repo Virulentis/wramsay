@@ -1,4 +1,14 @@
 
+
+:root {
+  --background-color: black;
+  --text-color: white; 
+
+  --highlight-color: rgb(53, 53, 53);
+  --inverse-text-color: black;
+}
+
+
 html{scroll-behavior:smooth}
 
 body {
@@ -8,19 +18,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(14, 14, 14);
-  color: white;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-size: 25px;
   font-weight: lighter;
-
+  transition: background-color 0.30s, color 0.30s;
 
   /* No select */
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 

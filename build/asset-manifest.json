@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/wramsay/static/css/main.6f3d247b.css",
-    "main.js": "/wramsay/static/js/main.c0706556.js",
+    "main.css": "/wramsay/static/css/main.ee26b246.css",
+    "main.js": "/wramsay/static/js/main.09b621a1.js",
+    "static/media/WRamsay_Resume.pdf": "/wramsay/static/media/WRamsay_Resume.afb8ea5992d181cf1621.pdf",
+    "static/media/sun.svg": "/wramsay/static/media/sun.ed23b430cb9f4147d84c4c1379c6cc97.svg",
     "index.html": "/wramsay/index.html",
     "static/media/github.svg": "/wramsay/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
     "static/media/linkedin.svg": "/wramsay/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
     "static/media/mail.svg": "/wramsay/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
-    "main.6f3d247b.css.map": "/wramsay/static/css/main.6f3d247b.css.map",
-    "main.c0706556.js.map": "/wramsay/static/js/main.c0706556.js.map"
+    "static/media/moon.svg": "/wramsay/static/media/moon.a82cae44d086a825a6fa3dfb65dce3ba.svg",
+    "main.ee26b246.css.map": "/wramsay/static/css/main.ee26b246.css.map",
+    "main.09b621a1.js.map": "/wramsay/static/js/main.09b621a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f3d247b.css",
-    "static/js/main.c0706556.js"
+    "static/css/main.ee26b246.css",
+    "static/js/main.09b621a1.js"
   ]
 }

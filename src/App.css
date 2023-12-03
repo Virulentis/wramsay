@@ -1,7 +1,11 @@
 
 
-
-#light {
+.App{
+  color: var(--text-color);
+  background-color: var(--background-color);
+  transition: background-color 0.30s, color 0.30s;
+}
+/* #light {
   background-color: rgb(240, 240, 240);
   color: black;
   transition: background-color 0.30s, color 0.30s;
@@ -11,9 +15,9 @@
   background-color: black;
   color: white;
   transition: background-color 0.30s, color 0.30s;
-}
+} */
 
-#light a {
+/* #light a {
   color: black;
 }
 
@@ -27,11 +31,9 @@
 
 #dark .Nav_val:hover {
   background-color: white;
-}
+} */
 
-a{
-  text-decoration: none;
-}
+
 
 
 #right_side:last-child {
@@ -39,9 +41,3 @@ a{
   margin: auto;
 }
 
-.checkbox {
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}

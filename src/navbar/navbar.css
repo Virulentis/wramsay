@@ -8,10 +8,10 @@
     display: flex;
     position: fixed;
     top: 0;
-    
     z-index: 1000;
     width: 100%;
-    
+    background-color: var(--background-color);
+    transition: background-color 0.30s, color 0.30s;
 }
 
 .Nav_item:last-child{
@@ -20,24 +20,43 @@
 
 
 
-#light .Nav_val:hover  {
-    color: white;
-    background-color: black;
+.Nav_val:hover  {
+    color: var(--background-color);
+    background-color: var(--text-color);
+    transition: background-color 0.45s, color 0.45s;
 }
 
-#dark .Nav_val:hover {
-    color: black;
-    background-color: white;
-}
 
 .Nav_val{
     padding: 0px 10px;
-    transition: background-color 0.30s, color 0.30s;
+    
 }
 
-#test{
-    color: purple;
+
+.checkbox {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
-/* -webkit-filter: invert(100%);
-    filter: invert(100%); */
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#svg_container {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+/*   
+.checked {
+transform: rotate(0deg);
+transition: transform 0.5s ease-in-out;
+}
+
+.unchecked {
+transform: rotate(40deg);
+transition: transform 0.5s ease-in-out;
+} */
