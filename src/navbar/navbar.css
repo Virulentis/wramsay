@@ -6,9 +6,11 @@
     border: 10px;
     list-style-type: none;
     display: flex;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    background-color: black; */
+    
+    z-index: 1000;
+    width: 100%;
     
 }
 
