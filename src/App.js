@@ -43,10 +43,10 @@ function App() {
     <span className='section_card' >Projects</span>
 
     <ItemCard  src='.\images\discord_bot.jpg' 
-    title='Discord Text / Image Generator' 
-    desc='In Python using various lirbraies and models made a discord bot that henerates images/text. 
-    The bot rememebers previous text and will try to stay on topic. It can generate images directly 
-    from the users prompt or from the user asking to it to take a picture.' 
+    title='Discord Text / Image Generator'
+    desc="In Python using various libraries and models made a discord bot that henerates images/text.
+    The bot remembers previous text and will try to stay on topic. It can generate images directly
+    from the user's prompt or from the user asking it to take a picture."
     flip='flip' />
 
 
